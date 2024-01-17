@@ -59,7 +59,7 @@ const iconSet: Record<
     'Email',
     <i className="icon-[mingcute--mail-line]" />,
     '#D44638',
-    (id) => `mailto:${id}`,
+    (id) => id,
   ],
   rss: [
     'RSS',

@@ -29,6 +29,7 @@ const type2Copy = {
   weibo: '微博',
 
   x: 'X',
+  mastodon: 'Mastodon',
 } as any
 const icons = new Set(Object.keys(type2Copy))
 
@@ -65,6 +66,12 @@ const iconSet: Record<
     'RSS',
     <i className="icon-[mingcute--rss-line]" />,
     '#FFA500',
+    (id) => id,
+  ],
+  mastodon: [
+    'Mastodon',
+    <i className="icon-[mingcute--mastodon-line]" />,
+    '#6364FF',
     (id) => id,
   ],
   bilibili: [

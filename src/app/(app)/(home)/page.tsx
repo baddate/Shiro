@@ -231,9 +231,9 @@ const PostScreen = () => {
           transition={softSpringPreset}
           className="text-3xl font-medium leading-loose"
         >
-          这里或许有那么一些对于生活的感慨
+          在代码的世界里追寻未来的脚步，
           <br />
-          也或许有那么一些对于技术的记录。
+          在生活的琐碎间汲取感悟的深度。
         </m.h2>
         <div>
           <ul className="space-y-4">
@@ -338,7 +338,7 @@ const NoteScreen = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={softBouncePreset}
             >
-              看看我的近况，我的所思所想、所作所为
+              一窗生活，所思所想，所作所为，皆在此刻。
             </m.h3>
             <Link href={routeBuilder(Routes.Note, { id: theLast.nid })}>
               <m.div
@@ -458,9 +458,11 @@ const NoteScreen = () => {
             opacity: 1,
           }}
         >
-          而在这里，你会看到一个不同的我，
+          品味生活的绚烂之美，
           <br />
-          一个在生活中发现美，感受痛苦，洞察人性的我。
+          感悟痛苦的深刻内涵，
+          <br />
+          洞悉人性的微妙琐碎
         </m.h2>
       </TwoColumnLayout>
     </Screen>

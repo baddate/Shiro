@@ -460,8 +460,6 @@ const NoteScreen = () => {
         >
           品味生活的绚烂之美，
           <br />
-          感悟痛苦的深刻内涵，
-          <br />
           洞悉人性的微妙琐碎
         </m.h2>
       </TwoColumnLayout>

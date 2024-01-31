@@ -26,7 +26,8 @@
     "prepare": "pnpm exec simple-git-hooks && test -f .env || cp .env.template .env",
     "start": "npm run dev",
     "prebuild": "rimraf .next || exit 0",
-    "dev": "cross-env NODE_ENV=development next dev -p 2323 --turbo",
+    "dev": "cross-env NODE_ENV=development next dev -p 2323",
+    "dev:turbo": "cross-env NODE_ENV=development next dev -p 2323 --turbo",
     "analyze": "cross-env NODE_ENV=production ANALYZE=true BUNDLE_ANALYZE=browser next build",
     "build": "cross-env NODE_ENV=production next build",
     "build:ci": "cross-env NODE_ENV=production CI=true next build",
@@ -37,6 +38,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "4.29.5",
+    "@excalidraw/excalidraw": "0.17.2",
     "@floating-ui/react-dom": "2.0.8",
     "@milkdown/core": "7.3.3",
     "@milkdown/plugin-clipboard": "7.3.3",
